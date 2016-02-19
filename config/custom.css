@@ -1,0 +1,75 @@
+/*main css*/
+
+body {
+    background: url('http://img02.deviantart.net/a42f/i/2014/123/4/3/porygon_z___tri_attack_by_ishmam-d5n3gjn.png')!important;
+}
+
+.header .logo {
+    opacity: 0;
+}
+
+.chat-log{
+    background:url('http://vignette2.wikia.nocookie.net/centro-pkmn/images/f/fe/Porygon-Z_(Dream_World).png/revision/latest?cb=20120616164806&path-prefix=es') no-repeat;
+    background-position:top right;
+}
+
+.pm-log-add{
+    background:rgba(248,248,248,.8);
+}
+
+.pm-window h3{
+    background:rgba(248,248,248,.8) url('http://media.pldh.net/pokecons_action/474.gif') bottom left no-repeat;
+    text-align:center;
+    background-position:225px;
+}
+
+.pm-window.focused h3{
+   background:rgba(248,248,248,.8) url('http://media.pldh.net/pokecons_action/474.gif') bottom left no-repeat;
+    text-align:center;
+    background-position:225px;
+}
+
+.pm-log{
+    background:rgba(242,247,250,.925) url('http://media.pldh.net/pokemon/gen5/blackwhite_animated_front/474.gif') no-repeat;
+    background-position: top right;
+}
+.pm-window.focused .pm-log-add{
+    background:#e6e6e6;
+}
+
+.broadcast-blue {
+    text-align: center;
+}
+.broadcast-green {
+    text-align: center;
+}
+.broadcast-red {
+    text-align: center;
+}
+
+.roomlist a.ilink{
+    text-align:center;
+}
+
+.battle-log h2{
+    text-align:center;
+}
+
+/*************************************
+  * Userlist Icons *
+  ************************************/
+#lobby-userlist-user-psns, #development-userlist-user-psns, #staff-userlist-user-psns {
+     background: url("http://media.pldh.net/pokecons_action/474.gif") right no-repeat;
+ }
+ 
+ #lobby-userlist-user-porybot, #development-userlist-user-porybot, #staff-userlist-user-porybot {
+     background: url("http://media.pldh.net/pokecons_action/474.gif") right no-repeat;
+ }
+ 
+ #lobby-userlist-user-setpsns strong em, #lobby-userlist-user-setpsns strong, #lobby-userlist-user-setpsns span, #staff-userlist-user-setpsns strong em, #staff-userlist-user-setpsns strong, #staff-userlist-user-setpsns span, #shadowbanroom-userlist-user-setpsns strong em, #shadowbanroom-userlist-user-setpsns strong, #shadowbanroom-userlist-user-setpsns span #development-userlist-user-setpsns strong em, #development-userlist-user-setpsns strong, #development-userlist-user-setpsns span, #seniorstaff-userlist-user-setpsns strong em, #seniorstaff-userlist-user-setpsns strong, #seniorstaff-userlist-user-setpsns span{
+color: purple !important;
+}
+.chat.chatmessage-setpsns strong {
+color: purple !important;
+}
+/* COLORS END */
