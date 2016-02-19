@@ -1,9 +1,177 @@
-/**
- * Custom CSS declarations
- *
- * If your server is registered, you can create a file named `custom.css`
- * in the `config` directory and populate it with CSS rules to override the
- * normal client styles, when the client is connected to your server. In
- * other words, you can use this facility to introduce a custom theme for
- * your server.
- */
+/*main css*/
+
+body {
+    background: url('http://img02.deviantart.net/a42f/i/2014/123/4/3/porygon_z___tri_attack_by_ishmam-d5n3gjn.png')!important;
+}
+
+.header {
+    background: rgba(17, 72, 79, 0.6) url("http://cdn.varner.eu/cdn-1d0042178bf9e00/Images/Urban/logo.png") no-repeat;
+}
+
+.header .logo {
+    opacity: 0;
+}
+
+.chat-log{
+    background:url('http://pldh.net/media/sugimori/474.pnghttp://pldh.net/media/sugimori/474.png') no-repeat;
+    background-position:top right;
+}
+
+.pm-log-add{
+    background:#ff9900;
+}
+
+.pm-window h3{
+    background:#ff9900 url('http://media.pldh.net/pokecons_action/474.gif') bottom left no-repeat;
+    text-align:center;
+    background-position:225px;
+}
+
+.pm-window.focused h3{
+   background:#ff9900 url('http://media.pldh.net/pokecons_action/474.gif') bottom left no-repeat;
+    text-align:center;
+    background-position:225px;
+}
+
+.pm-log{
+    background:url('http://media.pldh.net/pokemon/gen5/blackwhite_animated_front/474.gif') no-repeat;
+    background-position: top right;
+}
+.pm-window.focused .pm-log-add{
+    background:#e6e6e6;
+}
+
+.button{
+    background:#ff9900!important;
+    font-style:italic!important;
+    border:black 1px solid;
+    color:black!important;
+}
+
+.teamlist .team {
+    background: black;
+    color: #ff9900;
+}
+.folderpane h3 {
+    background: #ff9900;
+}
+.folder .selectFolder {
+    background: #ff9900;
+}
+.folderlist .foldersep:before {
+    background: #ff9900;
+}
+.setcell-details {
+    background: #ff9900;
+}
+.setchart {
+    background: #ff9900;
+}
+.setchart-nickname label {
+    background: #ff9900;
+}
+.utilichart h3 {
+    background: black;
+    color: #ff9900;
+}
+.pokemonedit {
+    background: #ff9900;
+    color: black;
+}
+.pokemonedit:hover,
+.pokemonedit.focused {
+    background: black;
+    color: #ff9900;
+}
+.select,
+.team {
+    background: black;
+    color: #ff9900;
+}
+.select:hover,
+.team:hover {
+    background: #ff9900;
+    color: black;
+}
+.broadcast-blue {
+    background: black;
+    color: #ff9900;
+    text-align: center;
+}
+.broadcast-green {
+    background: black;
+    color: #ff9900;
+    text-align: center;
+}
+.broadcast-red {
+    background: black;
+    color: #ff9900;
+    text-align: center;
+}
+                                         
+.chat-log-add{
+    background:#ff9900;
+}
+
+.roomlist a.ilink{
+    background:#ff9900;
+    text-align:center;
+    color:black;
+}
+
+.mainmenuwrapper{
+    background:url('') no-repeat;
+    background-position: bottom left;
+}
+
+.battle-log {
+    background:#ff9900;
+}
+
+.battle-log h2{
+    color:#ff9900;
+    background:black;
+    font-style:italic!important;
+    text-align:center;
+}
+
+.rightbar, .leftbar{
+    background:#ff9900;
+}
+
+.battle-log-add{
+    background:#ff9900;
+}
+
+.ps-room.ps-room-opaque{
+    background:#ff9900;
+}
+
+.ps-room .battle-controls{
+    background:#ff9900;
+}
+
+.backdrop{
+    background:url('')!important;
+}
+
+
+.ps-popup{
+    background:#ff9900;
+}
+                                            
+/*************************************
+  * Userlist Icons *
+  ************************************/
+#lobby-userlist-user-psns, #development-userlist-user-psns, #staff-userlist-user-psns #seniorstaff-userlist-user-psns #celadongamecorner-userlist-user-psns {
+     background: #EEF2F5 url("http://media.pldh.net/pokecons_action/474.gif") right no-repeat;
+ }
+ 
+ #lobby-userlist-user-porybot, #development-userlist-user-porybot, #celadongamecorner-userlist-user-psns {
+     background: #EEF2F5 url("http://media.pldh.net/pokecons_action/474.gif") right no-repeat;
+ }
+ 
+.chat.chatmessage-psns strong {
+color: red !important;
+}
+/* COLORS END */
